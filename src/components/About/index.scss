@@ -75,3 +75,64 @@
         transform: rotateX(90deg);
     }
 }
+
+.text-stack-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  max-width: 500px;
+  margin-left: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 2;
+}
+
+.text-zone {
+  margin-top: -100px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.about-tech-stack {
+  margin: 0;
+  margin-top:300px;
+  width: 100%;
+  max-width: 100%;
+  padding: 5px 0px 10px 20px;
+  background: rgba(20, 20, 20, 0.7);
+  border-radius: 12px;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.12);
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  margin-left:30px;
+  margin-bottom:30px;
+
+  h2 {
+    font-size: 1.3em;
+    margin: 18px 0 8px 0;
+    color: #ffd700;
+    letter-spacing: 1px;
+  }
+
+  .tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px 0;
+
+    li {
+      background: rgba(255,255,255,0.08);
+      border-radius: 6px;
+      padding: 6px 16px;
+      font-size: 1em;
+      color: #ffd700;
+      font-family: 'Coolvetica', sans-serif;
+      letter-spacing: 1px;
+    }
+  }
+}

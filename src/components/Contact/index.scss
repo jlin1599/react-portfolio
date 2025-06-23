@@ -66,19 +66,54 @@
     }
 }
 
+.container.contact-page {
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+}
+
+.text-zone {
+  flex: 0 0 55%;
+  max-width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 .contact-social {
-  margin-top: 30px;
-  text-align: center;
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 600px;
+  height: 90%;
 
   .linkedin-link {
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     font-size: 18px;
     color: #0e76a8;
     text-decoration: none;
+    transition: color 0.2s;
 
     &:hover {
       text-decoration: underline;
+      color: #084c7a;
+    }
+
+    svg {
+      font-size: 40rem;
     }
   }
 }

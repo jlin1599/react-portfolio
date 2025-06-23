@@ -3,6 +3,8 @@ import './index.scss'
 import { useEffect, useRef, useState } from 'react'
 import Loader from 'react-loaders'
 import emailjs from '@emailjs/browser'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 
 const Contact = () => {
@@ -41,38 +43,50 @@ const Contact = () => {
   return (
     <>
       <div className="container contact-page">
-        <div className="text-zone">
-          <h1>
-            <AnimatedLetters
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
-              letterClass={letterClass}
-              idx={15}
-            />
-          </h1>
-          <p>
-            I'm currently looking for internship opportunities where I can contribute, learn, and grow as a developer.
-            Feel free to reach out if you think I’d be a good fit for your team!
-          </p>
-          <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
-              <ul>
-                <li className="half">
-                  <input type="text" name="name" placeholder="Name" required />
-                </li>
-                <li className="half">
-                  <input type="email" name="email" placeholder="Email" required />
-                </li>
-                <li>
-                  <input type="text" name="subject" placeholder="Subject" required />
-                </li>
-                <li>
-                  <textarea name="message" placeholder="Message" required></textarea>
-                </li>
-                <li>
-                  <input type="submit" className="flat-button" value="SEND" />
-                </li>
-              </ul>
-            </form>
+        <div className="contact-content">
+          <div className="text-zone">
+            <h1>
+              <AnimatedLetters
+                strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+                letterClass={letterClass}
+                idx={15}
+              />
+            </h1>
+            <p>
+              I'm currently looking for internship opportunities where I can contribute, learn, and grow as a developer.
+              Feel free to reach out if you think I'd be a good fit for your team!
+            </p>
+            <div className="contact-form">
+              <form ref={form} onSubmit={sendEmail}>
+                <ul>
+                  <li className="half">
+                    <input type="text" name="name" placeholder="Name" required />
+                  </li>
+                  <li className="half">
+                    <input type="email" name="email" placeholder="Email" required />
+                  </li>
+                  <li>
+                    <input type="text" name="subject" placeholder="Subject" required />
+                  </li>
+                  <li>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                  </li>
+                  <li>
+                    <input type="submit" className="flat-button" value="SEND" />
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+          <div className="contact-social">
+            <a
+              className="linkedin-link"
+              href="https://www.linkedin.com/in/jackielin159/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} size="8x" />
+            </a>
           </div>
         </div>
       </div>
