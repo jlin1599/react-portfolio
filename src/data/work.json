@@ -1,27 +1,14 @@
 {
   "work": [
     {
-      "title": "Software Engineering Intern",
-      "company": "Tech Company Inc.",
-      "duration": "May 2023 - August 2023",
-      "description": "Developed and maintained web applications using modern frontend frameworks. Collaborated with cross-functional teams to deliver high-quality software solutions.",
-      "technologies": ["React", "JavaScript", "Node.js", "MongoDB", "Git"],
+      "title": "Software Developer Intern",
+      "company": "Evergreen Investments",
+      "duration": "March 2025 - May 2025",
+      "description": "Remote internship focused on developing automation solutions and custom tools to streamline business processes and improve operational efficiency.",
+      "technologies": ["Deluge", "Zoho CRM", "JavaScript", "Zoho Desk", "CASA"],
       "achievements": [
-        "Reduced application load time by 40% through code optimization",
-        "Implemented new features that improved user engagement by 25%",
-        "Mentored junior developers and conducted code reviews"
-      ]
-    },
-    {
-      "title": "Research Assistant",
-      "company": "University Computer Science Department",
-      "duration": "September 2022 - Present",
-      "description": "Assisting professors with research projects in machine learning and data analysis. Contributing to academic papers and developing algorithms for data processing.",
-      "technologies": ["Python", "TensorFlow", "Pandas", "NumPy", "Jupyter"],
-      "achievements": [
-        "Published research findings in university symposium",
-        "Developed novel algorithm for data classification",
-        "Presented research at undergraduate research conference"
+        "Designed and implemented a property matching script using Deluge scripting and Zoho CRM, automating deal generation and improving lead-to-property match accuracy by 15% and accelerating outreach",
+        "Developed and deployed a custom JavaScript sidebar widget in Zoho Desk, streamlining workflows and increasing ticket submissions by 40% by eliminating the need for team members to switch between CASA and CRM tabs"
       ]
     }
   ]
