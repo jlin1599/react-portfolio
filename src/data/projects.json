@@ -1,0 +1,23 @@
+{
+    "project":[
+        {
+            "cover":"/projects/1/one.png",
+            "title": "Barber Business Portfolio",
+            "description": "React, Tailwind, Vite",
+            "url":"https://spadebarberstudio.vercel.app/"
+        },
+        {
+            "cover":"/projects/1/one.png",
+            "title": "Barber Business Portfolio",
+            "description": "React, Tailwind, Vite",
+            "url":"https://spadebarberstudio.vercel.app/"
+        },
+        {
+            "cover":"/projects/1/one.png",
+            "title": "Barber Business Portfolio",
+            "description": "React, Tailwind, Vite",
+            "url":"https://spadebarberstudio.vercel.app/"
+        } 
+    ]
+
+}
