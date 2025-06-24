@@ -1,22 +1,22 @@
 {
     "project":[
         {
-            "cover":"/projects/1/one.png",
+            "cover":"/projects/1/barber.png",
             "title": "Barber Business Portfolio",
             "description": "React, Tailwind, Vite",
             "url":"https://spadebarberstudio.vercel.app/"
         },
         {
-            "cover":"/projects/1/one.png",
-            "title": "Barber Business Portfolio",
-            "description": "React, Tailwind, Vite",
-            "url":"https://spadebarberstudio.vercel.app/"
+            "cover":"/projects/1/MediSync.png",
+            "title": "MediSync - HackNYU 2025",
+            "description": "React, Firebase, REST APIs",
+            "url":"https://devpost.com/software/medisync-jov4e5"
         },
         {
-            "cover":"/projects/1/one.png",
-            "title": "Barber Business Portfolio",
-            "description": "React, Tailwind, Vite",
-            "url":"https://spadebarberstudio.vercel.app/"
+            "cover":"/projects/1/HabitAware.png",
+            "title": "HabitAware - HackHunter Health & Wellness Winner",
+            "description": "Python, OpenCV, MediaPipe, Streamlit, OpenAI API",
+            "url":"https://devpost.com/software/habitaware"
         } 
     ]
 
