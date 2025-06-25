@@ -43,7 +43,7 @@
 .work-page,
 .contact-page{
         h1{
-            font-size:53px;
+            font-size: clamp(32px, 5vw, 53px);
             font-family: 'Coolvetica';
             color: #ffd700;
             font-weight: 400;
@@ -75,7 +75,7 @@
             }
         }
         p{
-            font-size: 13px;
+            font-size: clamp(12px, 2vw, 13px);
             color: #fff;
             font-family: sans-serif;
             font-weight: 300;
@@ -106,6 +106,103 @@
     .text-animation-hover{
         &:hover{
             color:#fff;
+        }
+    }
+}
+
+// Tablet breakpoint
+@media screen and (max-width: 768px) {
+    .about-page,
+    .projects-page,
+    .work-page,
+    .contact-page {
+        h1 {
+            font-size: clamp(28px, 6vw, 42px);
+            left: 5px;
+            
+            &::before {
+                font-size: 16px;
+                left: -8px;
+            }
+            
+            &::after {
+                font-size: 16px;
+                left: -25px;
+            }
+        }
+        
+        p {
+            font-size: clamp(11px, 2.5vw, 13px);
+        }
+        
+        .text-zone {
+            left: 5%;
+            width: 45%;
+        }
+    }
+}
+
+// Mobile breakpoint
+@media screen and (max-width: 480px) {
+    .tags {
+        left: 20px;
+        font-size: 16px;
+    }
+    
+    .about-page,
+    .projects-page,
+    .work-page,
+    .contact-page {
+        h1 {
+            font-size: clamp(24px, 7vw, 36px);
+            left: 0;
+            margin-bottom: 20px;
+            
+            &::before {
+                font-size: 14px;
+                left: -5px;
+            }
+            
+            &::after {
+                font-size: 14px;
+                left: -20px;
+            }
+        }
+        
+        p {
+            font-size: clamp(10px, 3vw, 12px);
+        }
+        
+        .text-zone {
+            left: 0;
+            width: 100%;
+            padding: 0 20px;
+        }
+    }
+}
+
+// Desktop breakpoint (existing)
+@media screen and (max-width: 1200px) {
+    .page{
+        position:initial;
+    }
+    .container{
+        position:initial;
+        height: auto;
+        min-height: auto;
+
+        &.about-page,
+        &.contact-page,
+        &.projects-page{
+            .text-zone{
+                position: initial;
+                transform: none;
+                width: 100%;
+                display:block;
+                padding: 20px;
+                box-sizing: border-box;
+                
+            }
         }
     }
 }

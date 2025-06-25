@@ -14,7 +14,7 @@
 
   h1 {
     color: #fff;
-    font-size: 53px;
+    font-size: clamp(32px, 5vw, 53px);
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
@@ -70,7 +70,7 @@ h2 {
   color: #8d8d8d;
   margin-top: 20px;
   font-weight: 400;
-  font-size: 11px;
+  font-size: clamp(10px, 2vw, 11px);
   font-family: sans-serif;
   letter-spacing: 3px;
   animation: fadeIn 1s 1.8s backwards;
@@ -78,7 +78,7 @@ h2 {
 
 .flat-button {
   color: #ffd700;
-  font-size: 13px;
+  font-size: clamp(11px, 2vw, 13px);
   font-weight: 400;
   letter-spacing: 4px;
   font-family: sans-serif;
@@ -90,6 +90,10 @@ h2 {
   animation: fadeIn 1s 1.8s backwards;
   white-space: nowrap;
   text-align: center;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     background: #ffd700;
@@ -115,5 +119,138 @@ h2 {
   }
   60% {
     transform: translateY(-8px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-page {
+    .content-wrapper {
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .text-zone {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: clamp(28px, 6vw, 42px);
+      
+      &::before {
+        font-size: 16px;
+        left: 10px;
+      }
+      
+      &::after {
+        font-size: 16px;
+        margin-left: 15px;
+      }
+      
+      img {
+        width: 50px;
+        margin-left: 15px;
+      }
+    }
+
+    .logo-zone {
+      .main-logo {
+        width: 200px;
+        margin: 0 auto 30px auto;
+        opacity: 0.3;
+      }
+    }
+  }
+
+  .flat-button {
+    float: none;
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-page {
+    .content-wrapper {
+      padding: 0 15px;
+    }
+
+    h1 {
+      font-size: clamp(24px, 7vw, 36px);
+      
+      &::before {
+        font-size: 14px;
+        left: 5px;
+        margin-top: -30px;
+      }
+      
+      &::after {
+        font-size: 14px;
+        margin-left: 10px;
+      }
+      
+      img {
+        width: 40px;
+        margin-left: 10px;
+      }
+    }
+
+    .logo-zone {
+      .main-logo {
+        width: 150px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .flat-button {
+    width: 120px;
+    padding: 8px 15px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .tags,
+  .home-page h1::before,
+  .home-page h1::after{
+    display: none;
+  }
+  .home-page{
+    .text-zone{
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding:10px;
+      box-sizing: border-box;
+    }
+    .flat-button{
+      float: none;
+      display: block;
+      margin:20px auto 0 auto;
+      width: 125px;
+    }
+    .main-logo{
+      position:relative;
+      width: 100px;
+      height: auto;
+      top: 50px;
+      right:0;
+      box-sizing: border-box;
+      margin:auto;
+      left:0;
+
+      svg{
+        position:absolute;
+        top:auto;
+        right:auto;
+        bottom:auto;
+        left:0;
+        margin: auto;
+      }
+    }
   }
 }

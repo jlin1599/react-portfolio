@@ -63,6 +63,10 @@
         border: 1px solid #ffd700;
         float:right;
         border-radius: 4px;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -96,7 +100,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 600px;
   height: 90%;
 
   .linkedin-link {
@@ -116,5 +119,105 @@
     svg {
       font-size: 40rem;
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .text-zone {
+    flex: 1 1 60%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .contact-social {
+    flex: 1 1 40%;
+    margin-left: 0;
+    
+    .linkedin-link {
+      font-size: 16px;
+      
+      svg {
+        font-size: 20rem;
+      }
+    }
+  }
+
+  .contact-form {
+    li.half {
+      width: 100%;
+      margin-left: 0;
+      float: none;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container.contact-page {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .text-zone {
+    flex: 1 1 70%;
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  .contact-social {
+    flex: 1 1 30%;
+    margin-left: 0;
+    
+    .linkedin-link {
+      font-size: 14px;
+      
+      svg {
+        font-size: 15rem;
+      }
+    }
+  }
+
+  .contact-form {
+    margin-top: 15px;
+    
+    input[type='text'],
+    input[type='email'] {
+      height: 45px;
+      font-size: 14px;
+      padding: 0 15px;
+    }
+    
+    textarea {
+      font-size: 14px;
+      padding: 15px;
+      min-height: 120px;
+    }
+    
+    .flat-button {
+      float: none;
+      display: block;
+      margin: 15px auto 0 auto;
+      width: 120px;
+      font-size: 10px;
+      padding: 6px 8px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .linkedin-link{
+    float:none;
+    width:100%;
+    height:400px;
+    margin:0;
+    display:none;
   }
 }

@@ -137,3 +137,123 @@
     }
   }
 }
+
+// Tablet breakpoint
+@media screen and (max-width: 768px) {
+  .stage-cube-cont {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    padding-top: 10%;
+    overflow: visible;
+  }
+
+  .cubespinner {
+    transform-origin: 75px 75px 0;
+    margin-left: calc(50% - 75px);
+    margin-top: -50px;
+
+    div {
+      width: 200px;
+      height: 200px;
+      font-size: 100px;
+      margin-left: calc(50% - 250px);
+      margin-top: -50px;
+    }
+  }
+
+  .text-stack-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .text-zone {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about-tech-stack {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+
+    h2 {
+      font-size: 1.2em;
+      margin: 15px 0 6px 0;
+    }
+
+    .tech-list {
+      gap: 8px 16px;
+
+      li {
+        padding: 5px 12px;
+        font-size: 0.9em;
+      }
+    }
+  }
+}
+
+// Mobile breakpoint
+@media screen and (max-width: 480px) {
+  .stage-cube-cont {
+    height: 200px;
+    padding-top: 5%;
+  }
+
+  .cubespinner {
+    transform-origin: 50px 50px 0;
+    margin-left: calc(50% - 50px);
+    margin-top: -25px;
+
+    div {
+      width: 150px;
+      height: 150px;
+      font-size: 75px;
+      margin-left: calc(50% - 175px);
+      margin-top: -25px;
+    }
+  }
+
+  .text-stack-wrapper {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .text-zone {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .about-tech-stack {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 8px 12px;
+
+    h2 {
+      font-size: 1.1em;
+      margin: 12px 0 5px 0;
+    }
+
+    .tech-list {
+      gap: 6px 12px;
+
+      li {
+        padding: 4px 10px;
+        font-size: 0.8em;
+      }
+    }
+  }
+}
+
+// Desktop breakpoint (existing)
+@media screen and (max-width: 1200px) {
+  .stage-cube-cont{
+    position: initial;
+    width:100%;
+    height: 0%;
+    overflow: visible;
+  }
+}

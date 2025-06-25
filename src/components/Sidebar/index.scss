@@ -122,3 +122,139 @@
         }
     }
 }
+.hamburger-icon,
+.close-icon{
+    display: none;
+}
+
+// Tablet breakpoint
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        background:transparent;
+        position:initial;
+        height: auto;
+        min-height:auto;
+
+        ul, nav{
+            display: none;
+        }
+        nav{
+            width: 100%;
+            height:100%;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            top: 0;
+            left: 0;
+            position: fixed;
+            z-index:2;
+            margin:0;
+
+            a{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 60px; // Touch-friendly height
+                font-size: 20px;
+            }
+            a:after{
+                opacity: 1;
+                position:initial;
+                width:auto;
+                margin-left: 10px;
+                font-size: 12px;
+            }
+            a svg{
+                opacity: 1 !important;
+            }
+            &.mobile-show{
+                display:block;
+            }
+        }
+        .hamburger-icon,
+        .close-icon{
+            display: block;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            min-width: 44px; // Touch-friendly width
+            min-height: 44px; // Touch-friendly height
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+// Mobile breakpoint
+@media screen and (max-width: 480px) {
+    .nav-bar {
+        nav {
+            a {
+                min-height: 50px;
+                font-size: 18px;
+                
+                &:after {
+                    font-size: 11px;
+                    margin-left: 8px;
+                }
+            }
+        }
+        
+        .hamburger-icon,
+        .close-icon {
+            top: 10px;
+            right: 10px;
+            min-width: 40px;
+            min-height: 40px;
+        }
+    }
+}
+
+// Desktop breakpoint (existing)
+@media screen and (max-width: 1200px) {
+    .nav-bar{
+        background:transparent;
+        position:initial;
+        height: auto;
+        min-height:auto;
+
+        ul, nav{
+            display: none;
+        }
+        nav{
+            width: 100%;
+            height:100%;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            top: 0;
+            left: 0;
+            position: fixed;
+            z-index:2;
+            margin:0;
+
+            a{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+            a:after{
+                opacity: 1;
+                position:initial;
+                width:auto;
+                margin-left: 10px;
+            }
+            a svg{
+                opacity: 1 !important;
+            }
+            &.mobile-show{
+                display:block;
+            }
+        }
+        .hamburger-icon,
+        .close-icon{
+            display: block;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+
+        }
+    }
+}
