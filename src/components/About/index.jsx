@@ -48,10 +48,13 @@ const About = () => {
                 <li>JavaScript</li>
                 <li>HTML</li>
                 <li>CSS</li>
+                <li>SQL</li>
               </ul>
               <h2>Tools &amp; Frameworks</h2>
               <ul className="tech-list">
                 <li>React</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
                 <li>Vite</li>
                 <li>Tailwind</li>
                 <li>Vercel</li>
@@ -59,8 +62,6 @@ const About = () => {
                 <li>REST APIs</li>
                 <li>Git</li>
                 <li>Linux</li>
-                <li>VS Code</li>
-
               </ul>
             </div>
           </div>
