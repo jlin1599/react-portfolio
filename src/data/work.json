@@ -1,6 +1,17 @@
 {
   "work": [
     {
+      "title": "Software Engineer Intern",
+      "company": "The Difference App LLC",
+      "duration": "June 2025 - Present",
+      "description": "Remote internship supporting backend development and collaborative engineering processes for a health-focused startup.",
+      "technologies": ["PHP", "SQL", "Agile"],
+      "achievements": [
+        "Contributing to backend development using PHP and SQL to support integration of nutritional data from third-party sources",
+        "Collaborating in Agile stand-ups and planning sessions with 4–5 engineers to define, review, and develop new features"
+      ]
+    },
+    {
       "title": "Software Developer Intern",
       "company": "Evergreen Investments",
       "duration": "March 2025 - May 2025",
@@ -12,4 +23,4 @@
       ]
     }
   ]
-} 
+}

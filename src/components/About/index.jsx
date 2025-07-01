@@ -55,8 +55,8 @@ const About = () => {
                 <li>React</li>
                 <li>Node.js</li>
                 <li>Express.js</li>
+                <li>Tailwind CSS</li>
                 <li>Vite</li>
-                <li>Tailwind</li>
                 <li>Vercel</li>
                 <li>Supabase</li>
                 <li>REST APIs</li>
