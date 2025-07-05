@@ -78,7 +78,7 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div className="contact-social">
+          {/* <div className="contact-social">
             <a
               className="linkedin-link"
               href="https://www.linkedin.com/in/jackielin159/"
@@ -87,7 +87,7 @@ const Contact = () => {
             >
               <FontAwesomeIcon icon={faLinkedin} size="8x" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <Loader type="pacman" />
