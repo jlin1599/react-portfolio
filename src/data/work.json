@@ -5,10 +5,21 @@
       "company": "The Difference App LLC",
       "duration": "June 2025 - Present",
       "description": "Remote internship supporting backend development and collaborative engineering processes for a health-focused startup.",
-      "technologies": ["PHP", "SQL", "Agile"],
+      "technologies": ["Node.js", "Express.js", "Android", "React", "Agile"],
       "achievements": [
-        "Contributing to backend development using PHP and SQL to support integration of nutritional data from third-party sources",
-        "Collaborating in Agile stand-ups and planning sessions with 4–5 engineers to define, review, and develop new features"
+        "Refactored the administration console backend using Node.js and Express.js to enhance performance and streamline user data tracking, client requests, and personalized health data access",
+        "Redesigned subscription screens for improved user accessibility, resolved bugs, and implemented Android notification services for subscription purchases, contributing to both front-end and back-end development"
+      ]
+    },
+    {
+      "title": "Freelance Web Developer",
+      "company": "Self-Employed",
+      "duration": "May 2025 - June 2025",
+      "description": "Remote freelance work developing modern web solutions for local businesses to enhance their online presence and operational efficiency.",
+      "technologies": ["React", "Tailwind CSS"],
+      "achievements": [
+        "Developed and deployed a modern portfolio site for a local barber business using React and Tailwind CSS, increasing bookings by 20% and boosting monthly revenue by over $1,000",
+        "Established the business's first online presence, enhancing Google discoverability and enabling direct client bookings through a fully responsive interface, improving client convenience"
       ]
     },
     {
@@ -18,8 +29,8 @@
       "description": "Remote internship focused on developing automation solutions and custom tools to streamline business processes and improve operational efficiency.",
       "technologies": ["Deluge", "Zoho CRM", "JavaScript", "Zoho Desk", "CASA"],
       "achievements": [
-        "Designed and implemented a property matching script using Deluge scripting and Zoho CRM, automating deal generation and improving lead-to-property match accuracy by 15% and accelerating outreach",
-        "Developed and deployed a custom JavaScript sidebar widget in Zoho Desk, streamlining workflows and increasing ticket submissions by 40% by eliminating the need for team members to switch between CASA and CRM tabs"
+        "Designed and implemented a property matching script using Deluge scripting and Zoho CRM, automating deal generation and improving lead-to-property match accuracy by 15%",
+        "Developed and deployed a custom JavaScript sidebar widget in Zoho Desk, streamlining property ticket entry and increasing submission volume by 40% by removing the need to switch between CASA and CRM tabs"
       ]
     }
   ]
