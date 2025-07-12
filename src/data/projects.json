@@ -1,6 +1,12 @@
 {
     "project":[
         {
+            "cover":"/projects/1/nbalogo.png",
+            "title": "NBA Fantasy Analysis Tool",
+            "description": "React, Node.js, Express.js, Tailwind CSS, tank01 NBA API",
+            "url":"https://nba-draftsmart.vercel.app/"
+        },
+        {
             "cover":"/projects/1/barber.png",
             "title": "Barber Business Portfolio",
             "description": "React, Tailwind, Vite",
@@ -9,7 +15,7 @@
         {
             "cover":"/projects/1/MediSync.png",
             "title": "MediSync - HackNYU 2025",
-            "description": "React, Firebase, REST APIs",
+            "description": "React, Firebase, OpenAI API, Google Maps APIgi",
             "url":"https://devpost.com/software/medisync-jov4e5"
         },
         {
@@ -17,7 +23,7 @@
             "title": "HabitAware - HackHunter Health & Wellness Winner",
             "description": "Python, OpenCV, MediaPipe, Streamlit, OpenAI API",
             "url":"https://devpost.com/software/habitaware"
-        } 
+        }
     ]
 
 }
