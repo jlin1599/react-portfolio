@@ -9,13 +9,13 @@
         {
             "cover":"/projects/1/barber.png",
             "title": "Barber Business Portfolio",
-            "description": "React, Tailwind, Vite",
+            "description": "React, Tailwind CSS",
             "url":"https://spadebarberstudio.vercel.app/"
         },
         {
             "cover":"/projects/1/MediSync.png",
             "title": "MediSync - HackNYU 2025",
-            "description": "React, Firebase, OpenAI API, Google Maps APIgi",
+            "description": "React, Firebase, OpenAI API, Google Maps API",
             "url":"https://devpost.com/software/medisync-jov4e5"
         },
         {
