@@ -3,7 +3,7 @@
         {
             "cover":"/projects/1/nbalogo.png",
             "title": "NBA Fantasy Analysis Tool",
-            "description": "React, Node.js, Express.js, Tailwind CSS, tank01 NBA API",
+            "description": "React, Node.js, Express.js, Tailwind CSS, Supabase, tank01 NBA API",
             "url":"https://nba-draftsmart.vercel.app/"
         },
         {
