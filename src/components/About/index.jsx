@@ -37,31 +37,43 @@ const About = () => {
                     />
                 </h1>
                 <p>I'm a motivated developer who enjoys turning ideas into real, functional products. I take pride in building clean, user-friendly applications that make a difference.</p>
-                <p>Rising Junior studying Computer Science at Hunter College, I'm constantly learning and expanding my skills through personal projects, internships, and hackathons. My goal is to write clean, efficient code and make an impact with my work.</p>
+                <p>Rising Junior studying Computer Science at Hunter College, I'm constantly learning and expanding my skills through personal projects, internships, and hackathons. I'm a CUNY Tech Prep Fellow and CodePath ICP 2025 participant. My goal is to write clean, efficient code and make an impact with my work.</p>
                 <p>Outside of tech, I enjoy basketball, traveling, and video games. I'm always open to new challenges and opportunities to grow as a software engineer.</p>
             </div>
             <div className="about-tech-stack">
               <h2>Languages</h2>
               <ul className="tech-list">
+                <li>JavaScript</li>
+                <li>TypeScript</li>
                 <li>Python</li>
                 <li>C++</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
+                <li>HTML/CSS</li>
                 <li>SQL</li>
               </ul>
-              <h2>Tools &amp; Frameworks</h2>
+              <h2>Libraries &amp; Frameworks</h2>
               <ul className="tech-list">
                 <li>React</li>
+                <li>Next.js</li>
                 <li>Node.js</li>
                 <li>Express.js</li>
                 <li>Tailwind CSS</li>
-                <li>Vite</li>
+                <li>Vitest</li>
+              </ul>
+              <h2>Developer Tools</h2>
+              <ul className="tech-list">
+                <li>Git/GitHub</li>
+                <li>Bash/CLI</li>
                 <li>Vercel</li>
                 <li>Supabase</li>
-                <li>REST APIs</li>
-                <li>Git</li>
-                <li>Linux</li>
+                <li>AWS</li>
+                <li>Localstack</li>
+                <li>Postman</li>
+              </ul>
+              <h2>Databases</h2>
+              <ul className="tech-list">
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>DynamoDB</li>
               </ul>
             </div>
           </div>

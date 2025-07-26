@@ -1,9 +1,15 @@
 {
     "project":[
         {
+            "cover":"/projects/1/HabitAware.png",
+            "title": "HabitAware - HackHunter Health & Wellness Winner",
+            "description": "Python, OpenCV, MediaPipe, Streamlit, OpenAI API",
+            "url":"https://devpost.com/software/habitaware"
+        },
+        {
             "cover":"/projects/1/nbalogo.png",
             "title": "NBA Fantasy Analysis Tool",
-            "description": "React, Node.js, Express.js, Tailwind CSS, Supabase, tank01 NBA API",
+            "description": "React, Node.js, Express.js, Tailwind CSS, Supabase, tank01 NBA API, OpenAI API",
             "url":"https://nba-draftsmart.vercel.app/"
         },
         {
@@ -17,12 +23,6 @@
             "title": "MediSync - HackNYU 2025",
             "description": "React, Firebase, OpenAI API, Google Maps API",
             "url":"https://devpost.com/software/medisync-jov4e5"
-        },
-        {
-            "cover":"/projects/1/HabitAware.png",
-            "title": "HabitAware - HackHunter Health & Wellness Winner",
-            "description": "Python, OpenCV, MediaPipe, Streamlit, OpenAI API",
-            "url":"https://devpost.com/software/habitaware"
         }
     ]
 
