@@ -36,8 +36,9 @@ const About = () => {
                         idx = {15}
                     />
                 </h1>
-                <p>I'm a motivated developer who enjoys turning ideas into real, functional products. I take pride in building clean, user-friendly applications that make a difference.</p>
-                <p>Rising Junior studying Computer Science at Hunter College, I'm constantly learning and expanding my skills through personal projects, internships, and hackathons. I'm a CUNY Tech Prep Fellow and CodePath ICP 2025 participant. My goal is to write clean, efficient code and make an impact with my work.</p>
+                <p>I'm a motivated software engineer who enjoys turning ideas into real, functional products. I take pride in building clean, user-friendly applications that make a difference.</p>
+                <p>Rising Junior studying Computer Science at Hunter College with a 3.5 GPA, I'm constantly learning and expanding my skills through personal projects, internships, and hackathons. I'm a CUNY Tech Prep Fellow (Full Stack) and CodePath ICP 2025 participant. My goal is to write clean, efficient code and make an impact with my work.</p>
+                <p>I've gained valuable experience through multiple internships, including building senior-care platforms at ERbuddy, optimizing health apps at The Difference App LLC, and developing automation solutions at Evergreen Investments. I've also won 1st place at HunterHacks '25 for my HabitAware project and was selected for CUNY Pitchfest 2025.</p>
                 <p>Outside of tech, I enjoy basketball, traveling, and video games. I'm always open to new challenges and opportunities to grow as a software engineer.</p>
             </div>
             <div className="about-tech-stack">
@@ -63,11 +64,13 @@ const About = () => {
               <ul className="tech-list">
                 <li>Git/GitHub</li>
                 <li>Bash/CLI</li>
+                <li>Linux</li>
                 <li>Vercel</li>
                 <li>Supabase</li>
                 <li>AWS</li>
                 <li>Localstack</li>
                 <li>Postman</li>
+                <li>REST APIs</li>
               </ul>
               <h2>Databases</h2>
               <ul className="tech-list">

@@ -2,36 +2,47 @@
   "work": [
     {
       "title": "Software Engineer Intern",
+      "company": "ERbuddy, Inc.",
+      "duration": "September 2025",
+      "description": "Building and optimizing front-end components for ERbuddy's senior-care platform using React, React Native, and Redux, ensuring seamless integration with RESTful APIs.",
+      "technologies": ["React", "React Native", "Redux", "RESTful APIs"],
+      "achievements": [
+        "Building and optimizing front-end components for ERbuddy's senior-care platform using React, React Native, and Redux, ensuring seamless integration with RESTful APIs",
+        "Collaborating with UI/UX, back-end, and founding team members to implement responsive, user-friendly interfaces tailored for older adults, while improving performance and scalability through debugging and code optimizations"
+      ]
+    },
+    {
+      "title": "Software Engineer Intern",
       "company": "The Difference App LLC",
-      "duration": "June 2025 - Present",
-      "description": "Remote internship focused on backend development, authentication systems, and database optimization for a health-focused startup with 1,500+ registered users.",
+      "duration": "June 2025 – August 2025",
+      "description": "Rebuilt the admin login system for a predictive weight management app, using Node.js, Express.js, and MySQL within an Agile workflow, resolving backend access issues and enabling admin management of 1,500+ user records.",
       "technologies": ["React", "Express.js", "Node.js", "MySQL", "Tailwind CSS"],
       "achievements": [
-        "Rebuilt the admin login system using Node.js, Express.js, and MySQL, resolving backend access issues and enabling internal admins to manage data from 1,500+ registered user records",
-        "Secured the login flow by fixing React token handling and revamping authentication logic, eliminating 100% of unauthorized access attempts and enhancing error feedback",
+        "Rebuilt the admin login system for a predictive weight management app, using Node.js, Express.js, and MySQL within an Agile workflow, resolving backend access issues and enabling admin management of 1,500+ user records",
+        "Secured the login flow by fixing React state management for token handling and revamping authentication logic, eliminating 99% of unauthorized access attempts and enhancing error feedback",
         "Improved backend scalability and performance by restructuring the login logic and implementing MySQL connection pooling, supporting 10x more concurrent requests and reducing request delays during peak usage"
       ]
     },
     {
       "title": "Freelance Web Developer",
       "company": "Self-Employed",
-      "duration": "May 2025 - June 2025",
-      "description": "Remote freelance work developing modern web solutions for local businesses to enhance their online presence and operational efficiency.",
+      "duration": "May 2025 – July 2025",
+      "description": "Developed and deployed a modern portfolio site for a local barber business using React and Tailwind CSS, integrating a booking system and mobile-first design, increasing bookings by 20%.",
       "technologies": ["React", "Tailwind CSS"],
       "achievements": [
-        "Developed and deployed a modern portfolio site for a local barber business using React and Tailwind CSS, increasing bookings by 20% and boosting monthly revenue by over $1,000",
-        "Established the business's first online presence, enhancing Google discoverability and enabling direct client bookings through a fully responsive interface, improving client convenience"
+        "Developed and deployed a modern portfolio site for a local barber business using React and Tailwind CSS, integrating a booking system and mobile-first design, increasing bookings by 20%",
+        "Established the business's first online presence, supporting Google discoverability and enabling direct client bookings through a fully responsive interface, boosting monthly revenue by over $1,000"
       ]
     },
     {
       "title": "Software Engineer Intern",
       "company": "Evergreen Investments",
-      "duration": "March 2025 - May 2025",
-      "description": "Remote internship focused on developing automation solutions and custom tools to streamline business processes and improve operational efficiency.",
+      "duration": "March 2025 – May 2025",
+      "description": "Designed and implemented a property matching script for a residential real estate firm, using Deluge scripting and Zoho CRM, automating deal generation and improving lead-to-property match accuracy across 200+ weekly leads.",
       "technologies": ["Deluge", "Zoho CRM", "JavaScript", "Zoho Desk", "CASA"],
       "achievements": [
-        "Designed and implemented a property matching script using Deluge scripting and Zoho CRM, automating deal generation and improving lead-to-property match accuracy by 15%",
-        "Developed and deployed a custom JavaScript sidebar widget in Zoho Desk, streamlining property ticket entry and increasing submission volume by 40% by removing the need to switch between CASA and CRM tabs"
+        "Designed and implemented a property matching script for a residential real estate firm, using Deluge scripting and Zoho CRM, automating deal generation and improving lead-to-property match accuracy across 200+ weekly leads",
+        "Developed a custom JavaScript sidebar widget in Zoho Desk, streamlining property ticket entry and increasing submission volume by 40% by removing the need to switch between CASA and CRM tabs"
       ]
     }
   ]
